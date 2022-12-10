@@ -1,1 +1,0 @@
-# bitterroot-party-rentals-api
