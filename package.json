@@ -1,23 +1,29 @@
 {
-  "name": "server",
+  "name": "bitterroot-party-rentals-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "state": "node server",
     "dev": "nodemon server"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almapowell/bitterroot-party-rentals-api.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-async-handler": "^1.2.0",
-    "mongoose": "^6.7.3"
+  "bugs": {
+    "url": "https://github.com/almapowell/bitterroot-party-rentals-api/issues"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+  "homepage": "https://github.com/almapowell/bitterroot-party-rentals-api#readme"
 }
